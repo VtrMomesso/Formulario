@@ -85,5 +85,5 @@ fieldset.grupo .campo{
 }
 
 #check{
-    inset-block: ;
+    inset-block: unset;
 }
