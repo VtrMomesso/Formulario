@@ -34,3 +34,14 @@ body{
     letter-spacing: 0.3px;
     margin: 20px 0;
 }
+
+.container span{
+    font-size: 12px;
+}
+
+.container a{
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+}
