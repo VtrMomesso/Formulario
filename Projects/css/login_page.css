@@ -106,7 +106,7 @@ body{
 .sign-up{
     left: 0;
     width: 50%;
-    opacity: 0;
+    opacity: 1;
     z-index: 1;
 }
 
@@ -196,8 +196,15 @@ body{
     transform: translateX(-200%);
 }
 
+.container.active .toggle-left{
+    transform: translateX(0);
+}
+
 .toggle-right{
     right: 0;
     transform: translateX(0);
+}
 
+.container.active .toggle-right{
+    transform: translateX(200%);
 }
