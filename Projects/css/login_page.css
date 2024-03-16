@@ -59,3 +59,9 @@ body{
     margin-top: 10px;
     cursor: pointer;
 }
+
+.container button.hidden{
+    background-color: transparent;
+    border-color: #fff;
+}
+
